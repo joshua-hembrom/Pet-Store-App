@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/id_dogs"
+            android:layout_width="112dp"
+            android:layout_height="80dp"
+            android:src="@drawable/dog" />
+
+        <ImageView
+            android:id="@+id/id_cat"
+            android:layout_width="97dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/cat" />
+
+        <ImageView
+            android:id="@+id/id_fish"
+            android:layout_width="99dp"
+            android:layout_height="79dp"
+            android:src="@drawable/fish" />
+
+        <ImageView
+            android:id="@+id/id_bird"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/bird" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/id_hamster"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/hamster" />
+
+        <ImageView
+            android:id="@+id/id_horse"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/horse"
+            />
+
+        <ImageView
+            android:id="@+id/id_rabbit"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rabbit"
+            />
+
+        <ImageView
+            android:id="@+id/id_turtle"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/turtle" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/id_hens"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/hens"
+            />
+
+        <ImageView
+            android:id="@+id/id_reptile"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/reptile"
+            />
+
+        <ImageView
+            android:id="@+id/id_mouse"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/mouse" />
+
+        <ImageView
+            android:id="@+id/id_parrot"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:src="@drawable/parrot"
+            android:layout_marginStart="16dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/check_orders_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/admin_logout_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Check New Orders"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        />
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "42340048693",
+    "project_id": "ekart-62522",
+    "storage_bucket": "ekart-62522.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42340048693:android:6c113d16a72fbb60b5767c",
+        "android_client_info": {
+          "package_name": "com.petshop.shopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42340048693-efglv9ksi3dvrq7olv6qj2phc6uj4mn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq2l4D-WlTThqt1MHrN_00wnuWOCYepO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42340048693-efglv9ksi3dvrq7olv6qj2phc6uj4mn1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
